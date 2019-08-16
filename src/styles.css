@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Wrapper {
+  width: 300px;
+}
+
+.RadialChart {
+  width: 100%;
+  background: rgb(170, 196, 171);
+}
+
+.gauge {
+  transform-origin: 50% 50%;
+  transform: rotate(90deg);
+  transition: stroke-dasharray 1s ease;
+}
